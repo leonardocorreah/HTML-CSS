@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, #13678A, #45C4B0);
+}
+
+main{
+    background-color:#F2E3D5;
+    border-radius: 10px;
+    box-shadow: #3CA6A6 8px 8px 16px ;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 1px white;
+    color:  #13678A;
+    text-align: center;
+        
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    color: #13678A;
+    text-align: justify;
+}
+
+
+#my_png{
+    text-align: center;
+}
+
+#insta{
+    text-align: center;
+}
+

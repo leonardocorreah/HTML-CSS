@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Agrupamento</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 8px rgb(74, 108, 2);
+        }
+
+        main{
+            border-radius: 10px 0px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: darkgray;
+            width: 185px;
+            margin: auto;
+        }
+        
+        nav{
+            background-color: rgb(35, 96, 35);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(4, 1, 1, 0.754);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        
+
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+   </header>
+   <main>
+        <section id="assuntos">
+                <p>Esportes Política e Texnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil voluptatibus dolorem hic eius totam dolorum mollitia ipsam ex corrupti, minus deleniti provident officia id, labore eum similique repellendus cupiditate facilis.</p>
+            <aside>
+                <p>Artigo escrito pelo Leozao</p>
+            </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+   </main>
+   <footer>
+        <p>Desenvolvido por mim</p>
+   </footer>
+   <div id="bola">
+
+   </div>
+</body>
+</html>

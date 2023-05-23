@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, #13678A, #45C4B0);
+
+}
+
+body::-webkit-scrollbar {
+    width: 14px;
+    height: 2px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #45C4B0;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #13678A;
+    border-radius: 10px;       
+    border: 2px solid white;  
+  }
+
+main{
+    background-color:#F2E3D5;
+    border-radius: 10px;
+    box-shadow: #3CA6A6 8px 8px 16px ;
+    width: 850px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  #13678A;
+    text-align: center;
+        
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    color: #13678A;
+    text-align: center;
+}
+
+div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#porsche-amarela{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#porsche-video iframe{
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+#miketyson img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+ol{
+    font-family: Helvetica, sans-serif;
+    color: #13678A;    
+}
+
+ul{
+    font-family: Helvetica, sans-serif;
+    color: #13678A; 
+    list-style-type: disc;
+}
+
+div video{
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
